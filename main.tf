@@ -7,8 +7,3 @@ resource "aws_s3_bucket" "b" {
   bucket = "my_s3_bucket_1987"
   acl    = private
 }
-
-tag {
-  Name = "My_bucket"
-  Environment = "dev"
-}
